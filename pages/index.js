@@ -22,6 +22,11 @@ export default function Home() {
           alt="Picture of the author"
         />
         </div>
+        {/* About Section - name and location */}
+        <div className={styles.aboutSection}>
+          <h1 className={styles.fullName}>Jessica Randall</h1>
+          <h5 className={styles.location}>London, United Kingdom</h5>
+        </div>
       </main>
     </>
   );

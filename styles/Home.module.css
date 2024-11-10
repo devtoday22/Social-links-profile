@@ -5,7 +5,14 @@
     margin-top: 4%;
     margin-right: auto;
     margin-left: auto;
-    background-color: hsl(0, 0%, 20%)
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    
+}
+.profileImage {
+
+    padding-top: 20px;
+    
 }
 
 .profileImage img {
@@ -16,4 +23,24 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+}
+.aboutSection {
+
+    margin-top: 4%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.fullName {
+
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 700;
+}
+.location {
+
+   color: hsl(75, 94%, 57%);
+   font-size: 12px;
+   
 }
