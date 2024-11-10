@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -26,6 +27,25 @@ export default function Home() {
         <div className={styles.aboutSection}>
           <h1 className={styles.fullName}>Jessica Randall</h1>
           <h5 className={styles.location}>London, United Kingdom</h5>
+        </div>
+        {/* Social Links */}
+        <div className={styles.socialLink}>
+          <p>"Front-end developer and avid reader."</p>
+          <div>
+          <Link href="/">GitHub</Link>
+          </div>
+          <div>
+          <Link href="/">Frontend Mentor</Link>
+          </div>
+          <div>
+          <Link href="/">LinkedIn</Link>
+          </div>
+          <div>
+          <Link href="/">Twitter</Link>
+          </div>
+          <div>
+          <Link href="/">Instagram</Link>
+          </div>
         </div>
       </main>
     </>

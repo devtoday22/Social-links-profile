@@ -1,13 +1,11 @@
 .profileContainer {
 
-
     width: 350px;
     margin-top: 4%;
     margin-right: auto;
     margin-left: auto;
     background-color: hsl(0, 0%, 20%);
-    border-radius: 8px;
-    
+    border-radius: 8px;  
 }
 .profileImage {
 
@@ -26,7 +24,7 @@
 }
 .aboutSection {
 
-    margin-top: 4%;
+    margin-top: 8%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -43,4 +41,36 @@
    color: hsl(75, 94%, 57%);
    font-size: 12px;
    
+}
+.socialLink {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8%;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 20px;
+}
+.socialLink p {
+
+    font-size: 12px;
+    font-weight: 400;
+}
+.socialLink div {
+
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    
+}
+.socialLink a {
+
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
 }
