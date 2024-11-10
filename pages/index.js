@@ -13,7 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Body part of web app */}
-      
+      <h1>hweh fwoejfw fjwefn fwefn wefw</h1>
+      <h1>hweh fwoejfw fjwefn fwefn wefw</h1>
+      <h1>hweh fwoejfw fjwefn fwefn wefw</h1>
+      <h1>hweh fwoejfw fjwefn fwefn wefw</h1>
     </>
   );
 }
