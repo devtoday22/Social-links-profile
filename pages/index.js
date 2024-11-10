@@ -26,7 +26,7 @@ export default function Home() {
         {/* About Section - name and location */}
         <div className={styles.aboutSection}>
           <h1 className={styles.fullName}>Jessica Randall</h1>
-          <h5 className={styles.location}>London, United Kingdom</h5>
+          <h2 className={styles.location}>London, United Kingdom</h2>
         </div>
         {/* Social Links */}
         <div className={styles.socialLink}>
