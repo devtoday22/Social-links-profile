@@ -13,10 +13,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* Body part of web app */}
-      <h1>hweh fwoejfw fjwefn fwefn wefw</h1>
-      <h1>hweh fwoejfw fjwefn fwefn wefw</h1>
-      <h1>hweh fwoejfw fjwefn fwefn wefw</h1>
-      <h1>hweh fwoejfw fjwefn fwefn wefw</h1>
+      <main className={styles.profileContainer}>
+        <div className={styles.profileImage}>
+        <Image
+          src="/avatar-jessica.jpeg"
+          width={500}
+          height={500}
+          alt="Picture of the author"
+        />
+        </div>
+      </main>
     </>
   );
 }

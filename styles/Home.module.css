@@ -1,0 +1,19 @@
+.profileContainer {
+
+
+    width: 480px;
+    margin-top: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: hsl(0, 0%, 20%)
+}
+
+.profileImage img {
+
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
